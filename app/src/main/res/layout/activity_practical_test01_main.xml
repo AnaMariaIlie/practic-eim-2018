@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="ro.pub.cs.systems.eim.practicaltest01.PracticalTest01MainActivity" >
+
+    <Button
+        android:id="@+id/buton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Navigate to secondary activity"/>
+
+
+    <EditText
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:width="150dp"
+        android:saveEnabled="false"
+        android:layout_below="@+id/buton"
+        android:inputType="number"
+        android:text="@string/counter2"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:saveEnabled="false"
+        android:width="150dp"
+        android:layout_below="@+id/buton"
+        android:inputType="number"
+        android:text="@string/counter1"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/buton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/text1"
+        android:text="PRESS ME!"/>
+
+    <Button
+        android:id="@+id/buton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/text2"
+        android:text="PRESS ME, TOO!"/>
+
+
+
+</RelativeLayout>

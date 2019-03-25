@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Contacts Manager</string>
+    <string name="show_hide_text">SHOW ADDITIONAL FIELDS</string>
+    <string name="hide_text">HIDE ADDITIONAL FIELDS</string>
+    <string name="counter1">0</string>
+    <string name="counter2">0</string>
+    <string name="text_sum">0</string>
+    <string name="title_activity_practical_test01_secondary">second activity</string>
+</resources>

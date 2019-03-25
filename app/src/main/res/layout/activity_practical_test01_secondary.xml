@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="ro.pub.cs.systems.eim.practicaltest01.PracticalTest01SecondaryActivity" >
+
+
+    <TextView
+        android:id="@+id/text_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="150dp"
+        android:height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:text="@string/text_sum"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_second"
+        android:layout_marginLeft="125dp"
+        android:text="OK"/>
+
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_second"
+        android:layout_toRightOf="@+id/ok"
+        android:text="CANCEL"/>
+</RelativeLayout>
